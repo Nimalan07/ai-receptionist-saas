@@ -90,32 +90,27 @@ An AI-powered customer support and reception platform built using FastAPI, Next.
 ---
 
 ## System Architecture
-
+```text
 User
-
-↓
-
+  │
+  v
 Next.js Dashboard
-
-↓
-
+  │
+  v
 FastAPI Backend
-
-↓
-
+  │
+  v
 RAG Service
-
-↓
-
+  │
+  v
 Embedding Service
-
-↓
-
+  │
+  v
 ChromaDB Vector Store
-
-↓
-
+  │
+  v
 Ollama LLM
+```
 
 ---
 
@@ -395,7 +390,7 @@ This project is provided for educational and portfolio purposes.
 ---
 
 ## Author
-
+##### NIMALAN MANI M
 Developed using:
 
 * FastAPI
