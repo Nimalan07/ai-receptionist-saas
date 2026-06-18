@@ -312,7 +312,7 @@ DATABASE_URL=postgresql://postgres:password@localhost:5432/whatsapp_rag_db
 OLLAMA_MODEL=your_llama_model_name
 
 # Optional if using OpenAI
-OPENAI_API_KEY=your_openai_api_key
+OPENAI_API_=your_openai_api_key
 
 # Optional if using Gemini
 GOOGLE_API_KEY=your_google_api_key
@@ -390,11 +390,5 @@ This project is provided for educational and portfolio purposes.
 ---
 
 ## Author
-##### NIMALAN MANI M
-Developed using:
+### NIMALAN MANI M
 
-* FastAPI
-* Next.js
-* ChromaDB
-* Ollama
-* Retrieval-Augmented Generation (RAG)
